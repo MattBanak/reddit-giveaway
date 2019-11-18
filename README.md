@@ -1,6 +1,8 @@
 # reddit-giveaway
 A CLI for running effective Reddit giveaways using Puppeteer
 
+Default run command: node app.js
+
 Takes 4 non-abstracted inputs:
 1. URL of Reddit post
 2. String being searched for
