@@ -1,6 +1,10 @@
 # reddit-giveaway
 A CLI for running effective Reddit giveaways using Puppeteer
 
+Dependencies (top-level):
+Puppeteer
+Inquirer
+
 Intended use:
 When creating a giveaway thread, require each user who would like to enter to include a string.
 
