@@ -27,9 +27,10 @@ const questions = [
 
 return inquirer.prompt(questions).then(async answers => {
 
-    // const results = await getResults(answers.url, answers.isCapitalizationIgnored, answers.searchString, answers.numberOfWinners);
+    const results = await getResults(answers.url, answers.isCapitalizationIgnored, answers.searchString, answers.numberOfWinners);
 
-    const results = await getResults('https://old.reddit.com/r/fountainpens/comments/dwzu2j/my_first_fountain_pen_came_from_a_kind_person_on/', 'Yes', 'I would like to enter', "2");
+    // Test results
+    // const results = await getResults('https://old.reddit.com/r/fountainpens/comments/dwzu2j/my_first_fountain_pen_came_from_a_kind_person_on/', 'Yes', 'I would like to enter', "2");
 
     console.log("Results: " + results);
 
