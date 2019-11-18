@@ -1,0 +1,23 @@
+{
+  "name": "reddit-giveaway",
+  "version": "1.0.0",
+  "description": "A CLI for running effective Reddit giveaways using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattBanak/reddit-giveaway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattBanak/reddit-giveaway/issues"
+  },
+  "homepage": "https://github.com/MattBanak/reddit-giveaway#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "puppeteer": "^2.0.0"
+  }
+}
